@@ -9,8 +9,8 @@ public class GachaArrayandList : MonoBehaviour
     public int PickUpRange;
     private int PickUpCount;
 
-    List<string> CharacterListA = new List<string>(); //Åë»ó + ÇÈ¾÷ ¸®½ºÆ®
-    List<string> CharacterListB = new List<string>(); // ÇÈ¾÷ ¸®½ºÆ®
+    List<string> CharacterListA = new List<string>(); //í†µìƒ + í”½ì—… ë¦¬ìŠ¤íŠ¸
+    List<string> CharacterListB = new List<string>(); // í”½ì—… ë¦¬ìŠ¤íŠ¸
 
     public TextMeshProUGUI MoneyText;
     public TextMeshProUGUI GachaText;
@@ -23,42 +23,42 @@ public class GachaArrayandList : MonoBehaviour
         Money = 200000;
         PickUpCount = 0;
 
-        CharacterListA.Add("-½ºÆä¼È µå¸®¸Ó-  ½ºÆä¼È À§Å©");
-        CharacterListA.Add("-»çÀÏ·±Æ® ÀÌ³ë¼¾Æ®-  »çÀÏ·±½º ½ºÁîÄ«");
-        CharacterListA.Add("-Åé ¿Àºê Á¶ÀÌÇ®-  ÅäÄ«ÀÌ Å×ÀÌ¿À");
-        CharacterListA.Add("-Åé ¿Àºê ºí·ç-  ´ÙÀÌ¿Í ½ºÄ®·¿");
-        CharacterListA.Add("-¿ÍÀÏµå Åé ±â¾î-  º¸µåÄ«");
+        CharacterListA.Add("-ìŠ¤í˜ì…œ ë“œë¦¬ë¨¸-  ìŠ¤í˜ì…œ ìœ„í¬"); //í†µìƒ
+        CharacterListA.Add("-ì‚¬ì¼ëŸ°íŠ¸ ì´ë…¸ì„¼íŠ¸-  ì‚¬ì¼ëŸ°ìŠ¤ ìŠ¤ì¦ˆì¹´"); //í†µìƒ
+        CharacterListA.Add("-í†± ì˜¤ë¸Œ ì¡°ì´í’€-  í† ì¹´ì´ í…Œì´ì˜¤"); //í†µìƒ
+        CharacterListA.Add("-í†± ì˜¤ë¸Œ ë¸”ë£¨-  ë‹¤ì´ì™€ ìŠ¤ì¹¼ë ›"); //í†µìƒ
+        CharacterListA.Add("-ì™€ì¼ë“œ í†± ê¸°ì–´-  ë³´ë“œì¹´"); //í†µìƒ
 
-        CharacterListA.Add("-·¹µå ½ºÆ®¶óÀÌÇÁ-  °ñµå ½±");
-        CharacterListA.Add("-»çÄí¶ó, ³ª¾Æ°¡¶ó!-  »çÄí¶ó ¹ÙÄí½Å ¿À");
-        CharacterListA.Add("-È­Ã¢ÇÑ 1µî»ó-  ÇÏ·ç ¿ì¶ó¶ó");
-        CharacterListA.Add("-½ºÅ¸¶óÀÌÆ® ºñÆ®-  ¿À±¸¸® Ä¸");
-        CharacterListA.Add("-¿¤·¹°­½º ¶óÀÎ-  ¸ŞÁö·Î ¸ÆÄı");
+        CharacterListA.Add("-ë ˆë“œ ìŠ¤íŠ¸ë¼ì´í”„-  ê³¨ë“œ ì‰½"); //í†µìƒ
+        CharacterListA.Add("-ì‚¬ì¿ ë¼, ë‚˜ì•„ê°€ë¼!-  ì‚¬ì¿ ë¼ ë°”ì¿ ì‹  ì˜¤"); //í†µìƒ
+        CharacterListA.Add("-í™”ì°½í•œ 1ë“±ìƒ-  í•˜ë£¨ ìš°ë¼ë¼"); //í†µìƒ
+        CharacterListA.Add("-ìŠ¤íƒ€ë¼ì´íŠ¸ ë¹„íŠ¸-  ì˜¤êµ¬ë¦¬ ìº¡"); //í†µìƒ
+        CharacterListA.Add("-ì—˜ë ˆê°•ìŠ¤ ë¼ì¸-  ë©”ì§€ë¡œ ë§¥í€¸"); //í†µìƒ
+ 
+        CharacterListA.Add("-ì™€ì¼ë“œ í”„ë¡ í‹°ì–´-  íƒ€ì´í‚¤ ì…”í‹€"); //í†µìƒ
+        CharacterListA.Add("-ê¸ˆìƒ ê¸ˆí™”ê°€ë§ˆ-  í‚¤íƒ€ì‚° ë¸”ë™"); //í†µìƒ
+        CharacterListA.Add("-í‚¹ ì˜¤ë¸Œ ì—ë©”ë„ë“œ-  í‚¹ í—¤ì¼ë¡œ"); //í†µìƒ
+        CharacterListA.Add("-tach-nology-  ì•„ê·¸ë„¤ìŠ¤ íƒ€í‚¤ì˜¨"); //í†µìƒ
+        CharacterListA.Add("-í¬ì¸ì„¸í‹°ì•„ ë¦¬ë³¸-  ë‚˜ì´ìŠ¤ ë„¤ì´ì²˜"); //í†µìƒ
 
-        CharacterListA.Add("-¿ÍÀÏµå ÇÁ·ĞÆ¼¾î-  Å¸ÀÌÅ° ¼ÅÆ²");
-        CharacterListA.Add("-±İ»ó ±İÈ­°¡¸¶-  Å°Å¸»ê ºí·¢");
-        CharacterListA.Add("-Å· ¿Àºê ¿¡¸Ş¶öµå-  Å· ÇìÀÏ·Î");
-        CharacterListA.Add("-tach-nology-  ¾Æ±×³×½º Å¸Å°¿Â");
-        CharacterListA.Add("-Æ÷ÀÎ¼¼Æ¼¾Æ ¸®º»-  ³ªÀÌ½º ³×ÀÌÃ³");
+        CharacterListA.Add("-Bubblegum Memories-  íƒ€ì´í‚¤ ì…”í‹€ (í”¼í¬ë‹‰)"); //í”½ì—…
+        CharacterListA.Add("-ì£¼ì—­ ê²½ì‚¬ìŠ¤ëŸ¬ìš´ í•™ì˜ ëœ»-  í‚¤íƒ€ì‚° ë¸”ë™ (ì‹ ë…„)");//í”½ì—…
+        CharacterListA.Add("-ì¼ë³¸ ìµœê³ ì˜ ì´ëŒ€ì¥-  ìŠ¤íì…œ ìœ„í¬ (ì¼ë³¸ ì´ëŒ€ì¥)");//í”½ì—…
+        CharacterListA.Add("-RUN! ëŸ¼ë¸”! ëŸ°ì²˜!-  ê³¨ë“œ ì‰½ (ìˆ˜ì˜ë³µ)");//í”½ì—…
+        CharacterListA.Add("-ìƒˆí•´ì˜ í™”ì°½í•¨ í™œì§ í•€ Â“ë–¤-  í•˜ë£¨ ìš°ë¼ë¼ (ì‹ ë…„)");//í”½ì—…
 
-        CharacterListA.Add("-Bubblegum Memories-  Å¸ÀÌÅ° ¼ÅÆ² (ÇÇÅ©´Ğ)");
-        CharacterListA.Add("-ÁÖ¿ª °æ»ç½º·¯¿î ÇĞÀÇ ¶æ-  Å°Å¸»ê ºí·¢ (½Å³â)");
-        CharacterListA.Add("-ÀÏº» ÃÖ°íÀÇ ÃÑ´ëÀå-  ½ºÆó¼È À§Å© (ÀÏº» ÃÑ´ëÀå)");
-        CharacterListA.Add("-RUN! ·³ºí! ·±Ã³!-  °ñµå ½± (¼ö¿µº¹)");
-        CharacterListA.Add("-»õÇØÀÇ È­Ã¢ÇÔ È°Â¦ ÇÉ “¶²É-  ÇÏ·ç ¿ì¶ó¶ó (½Å³â)");
-
-        CharacterListB.Add("-Bubblegum Memories-  Å¸ÀÌÅ° ¼ÅÆ² (ÇÇÅ©´Ğ)");
-        CharacterListB.Add("-ÁÖ¿ª °æ»ç½º·¯¿î ÇĞÀÇ ¶æ-  Å°Å¸»ê ºí·¢ (½Å³â)");
-        CharacterListB.Add("-ÀÏº» ÃÖ°íÀÇ ÃÑ´ëÀå-  ½ºÆó¼È À§Å© (ÀÏº» ÃÑ´ëÀå)");
-        CharacterListB.Add("-RUN! ·³ºí! ·±Ã³!-  °ñµå ½± (¼ö¿µº¹)");
-        CharacterListB.Add("-»õÇØÀÇ È­Ã¢ÇÔ È°Â¦ ÇÉ “¶²É-  ÇÏ·ç ¿ì¶ó¶ó (½Å³â)");
+        CharacterListB.Add("-Bubblegum Memories-  íƒ€ì´í‚¤ ì…”í‹€ (í”¼í¬ë‹‰)");//í”½ì—…
+        CharacterListB.Add("-ì£¼ì—­ ê²½ì‚¬ìŠ¤ëŸ¬ìš´ í•™ì˜ ëœ»-  í‚¤íƒ€ì‚° ë¸”ë™ (ì‹ ë…„)");//í”½ì—…
+        CharacterListB.Add("-ì¼ë³¸ ìµœê³ ì˜ ì´ëŒ€ì¥-  ìŠ¤íì…œ ìœ„í¬ (ì¼ë³¸ ì´ëŒ€ì¥)");//í”½ì—…
+        CharacterListB.Add("-RUN! ëŸ¼ë¸”! ëŸ°ì²˜!-  ê³¨ë“œ ì‰½ (ìˆ˜ì˜ë³µ)");//í”½ì—…
+        CharacterListB.Add("-ìƒˆí•´ì˜ í™”ì°½í•¨ í™œì§ í•€ Â“ë–¤-  í•˜ë£¨ ìš°ë¼ë¼ (ì‹ ë…„)");//í”½ì—…
     }
 
     // Update is called once per frame
     void Update()
     {
-        MoneyText.text = "ÇöÀç ÀçÈ­ : " + Money;
-        PickUpCountText.text = "50¹øÂ° Ä«¿îÆ®¿¡¼± ÇÈ¾÷ È®Á¤! \n ÇöÀç ÇÈ¾÷ Ä«¿îÆ® : " + PickUpCount;
+        MoneyText.text = "í˜„ì¬ ì¬í™” : " + Money;
+        PickUpCountText.text = "50ë²ˆì§¸ ì¹´ìš´íŠ¸ì—ì„  í”½ì—… í™•ì •! \n í˜„ì¬ í”½ì—… ì¹´ìš´íŠ¸ : " + PickUpCount;
 
         if (Money < 0)
         {
@@ -68,8 +68,8 @@ public class GachaArrayandList : MonoBehaviour
 
     public void OneGatchaButton()
     {
-        Debug.Log("ÇöÀç ÀçÈ­ : " + Money);
-        Debug.Log("50¹øÂ° Ä«¿îÆ®¿¡¼± ÇÈ¾÷ È®Á¤! \n ÇöÀç ÇÈ¾÷ Ä«¿îÆ® : " + PickUpCount);
+        Debug.Log("í˜„ì¬ ì¬í™” : " + Money);
+        Debug.Log("50ë²ˆì§¸ ì¹´ìš´íŠ¸ì—ì„  í”½ì—… í™•ì •! \n í˜„ì¬ í”½ì—… ì¹´ìš´íŠ¸ : " + PickUpCount);
 
         if (Money >= 200)
         {
@@ -78,42 +78,42 @@ public class GachaArrayandList : MonoBehaviour
 
             if (PickUpCount >= 50)
             {
-                Debug.Log("ÇÈ¾÷ Ä«¿îÆ® µµ´Ş!");
+                Debug.Log("í”½ì—… ì¹´ìš´íŠ¸ ë„ë‹¬!");
                 PickUpRange = Random.Range(0, CharacterListB.Count);
 
                 GachaText.color = Color.yellow;
-                GachaText.text = CharacterListB[PickUpRange] + " È¹µæ!";
-                Debug.Log(CharacterListB[PickUpRange] + " È¹µæ!");
+                GachaText.text = CharacterListB[PickUpRange] + " íšë“!";
+                Debug.Log(CharacterListB[PickUpRange] + " íšë“!");
                 PickUpCount = 0;
             }
             else
             {
                 PickUpRange = Random.Range(0, CharacterListA.Count);
                 string result = CharacterListA[PickUpRange];
-                GachaText.text = CharacterListA[PickUpRange] + " È¹µæ!";
+                GachaText.text = CharacterListA[PickUpRange] + " íšë“!";
 
                 if (CharacterListB.Contains(result))
                 {
-                    GachaText.color = Color.yellow; // ÇÈ¾÷ Ä³¸¯ÅÍÀÌ¸é ³ë¶õ»ö ÅØ½ºÆ®
+                    GachaText.color = Color.yellow; // í”½ì—… ìºë¦­í„°ì´ë©´ ë…¸ë€ìƒ‰ í…ìŠ¤íŠ¸
                 }
                 else
                 {
-                    GachaText.color = Color.white; // Åë»óÀÌ¸é ÇÏ¾á»ö ÅØ½ºÆ®
+                    GachaText.color = Color.white; // í†µìƒì´ë©´ í•˜ì–€ìƒ‰ í…ìŠ¤íŠ¸
                 }
 
-                Debug.Log(CharacterListA[PickUpRange] + " È¹µæ!");
+                Debug.Log(CharacterListA[PickUpRange] + " íšë“!");
             }
         }
         else
         {
-            Debug.Log("ÀçÈ­°¡ ¾ø½À´Ï´Ù. ÇöÁúÀ» ´õ ÇÏ½Ã±æ ¹Ù¶ø´Ï´Ù");
+            Debug.Log("ì¬í™”ê°€ ì—†ìŠµë‹ˆë‹¤. í˜„ì§ˆì„ ë” í•˜ì‹œê¸¸ ë°”ëë‹ˆë‹¤");
         }
     }
 
-    public void TenGachaButton() // for¹® ¹öÀü
+    public void TenGachaButton() // forë¬¸ ë²„ì „
     {
-        Debug.Log("ÇöÀç ÀçÈ­ : " + Money);
-        Debug.Log("50¹øÂ° Ä«¿îÆ®¿¡¼± ÇÈ¾÷ È®Á¤! \n ÇöÀç ÇÈ¾÷ Ä«¿îÆ® : " + PickUpCount);
+        Debug.Log("í˜„ì¬ ì¬í™” : " + Money);
+        Debug.Log("50ë²ˆì§¸ ì¹´ìš´íŠ¸ì—ì„  í”½ì—… í™•ì •! \n í˜„ì¬ í”½ì—… ì¹´ìš´íŠ¸ : " + PickUpCount);
 
         if (Money >= 2000)
         {
@@ -121,17 +121,17 @@ public class GachaArrayandList : MonoBehaviour
             {
                 if (PickUpCount >= 50)
                 {
-                    Debug.Log("ÇÈ¾÷ Ä«¿îÆ® µµ´Ş!");
+                    Debug.Log("í”½ì—… ì¹´ìš´íŠ¸ ë„ë‹¬!");
                     PickUpRange = Random.Range(0, CharacterListB.Count);
-                    GachaText.text = CharacterListB[PickUpRange] + " È¹µæ!";
-                    Debug.Log(CharacterListB[PickUpRange] + " È¹µæ!");
+                    GachaText.text = CharacterListB[PickUpRange] + " íšë“!";
+                    Debug.Log(CharacterListB[PickUpRange] + " íšë“!");
                     PickUpCount = 0;
                 }
                 else
                 {
                     PickUpRange = Random.Range(0, CharacterListA.Count);
                     string result = CharacterListA[PickUpRange];
-                    GachaText.text = CharacterListA[PickUpRange] + " È¹µæ!";
+                    GachaText.text = CharacterListA[PickUpRange] + " íšë“!";
 
                     if (CharacterListB.Contains(result))
                     {
@@ -142,13 +142,13 @@ public class GachaArrayandList : MonoBehaviour
                         GachaText.color = Color.white;
                     }
 
-                    Debug.Log(CharacterListA[PickUpRange] + " È¹µæ!");
+                    Debug.Log(CharacterListA[PickUpRange] + " íšë“!");
                 }
             }
         }
         else
         {
-            Debug.Log("ÀçÈ­°¡ ¾ø½À´Ï´Ù. ÇöÁúÀ» ´õ ÇÏ½Ã±æ ¹Ù¶ø´Ï´Ù");
+            Debug.Log("ì¬í™”ê°€ ì—†ìŠµë‹ˆë‹¤. í˜„ì§ˆì„ ë” í•˜ì‹œê¸¸ ë°”ëë‹ˆë‹¤");
         }
     }
 }
